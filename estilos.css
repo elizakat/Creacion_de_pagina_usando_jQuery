@@ -1,0 +1,123 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 30px;
+      background-color: #f0f2f5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 600px;
+      background-color: #fff;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    #message {
+      display: none;
+      background-color: #d4edda;
+      color: #155724;
+      border: 1px solid #c3e6cb;
+      border-radius: 5px;
+      padding: 10px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .input-group {
+      display: flex;
+      gap: 10px;
+      margin: 20px 0;
+    }
+
+    #new-task {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    #agregar {
+      background-color: #007bff;
+      color: white;
+    }
+
+    #agregar:hover {
+      background-color: #0056b3;
+    }
+
+    #eliminar-tareas {
+      background-color: #dc3545;
+      color: white;
+    }
+
+    #eliminar-tareas:hover {
+      background-color: #b52a37;
+    }
+
+    ul#lista-tareas {
+      list-style: none;
+      padding: 0;
+    }
+
+    .task {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .task .texto-tarea {
+      flex-grow: 1;
+      font-size: 16px;
+    }
+
+    .task .edit-input {
+      flex-grow: 1;
+      font-size: 16px;
+      padding: 6px 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+
+    .completed {
+      text-decoration: line-through;
+      color: #999;
+    }
+
+    .buttons button {
+      background-color: #6c757d;
+      color: white;
+      margin-left: 6px;
+    }
+
+    .buttons button:hover {
+      background-color: #5a6268;
+    }
+  
